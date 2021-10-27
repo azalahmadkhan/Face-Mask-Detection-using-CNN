@@ -12,7 +12,7 @@ I used google colab to train this CNN.
 Since dataset consists of RGB images therefore its pixels were in 0-255 range.
 First layer in the model scaled those values to 0-1 range.
 
-STEPS
+#### Model
 input--->Conv2D+ReLU--->MaxPool--->Conv2D+ReLU--->MaxPool--->Conv2D+ReLU--->MaxPool--->Dropout--->Flatten--->Fully Connected--->Fully Connected--->output
 
 Dropout layer was inserted to avoid overfitting.
